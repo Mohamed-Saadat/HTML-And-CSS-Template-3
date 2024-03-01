@@ -1,0 +1,72 @@
+/* Mobile devices ==============> 320px — 480px  */
+@media all and (min-width:320px) and (max-width:480px) {
+    .container {
+        width: 90%;
+        margin-inline: auto;
+    }
+    section {
+        padding-block: 50px;
+    }
+    .header .container .logo{
+        width: 100%;
+        height: 50px;
+    }
+    .header .container .links{
+        margin-inline: auto;
+    }
+    .header .container .links > li > a {
+        height: 50px;
+        padding-inline: 10px;
+    }
+    .header .container .links li .mega-menu .right{
+        width: 100%;
+    }
+/* ================================================================ */
+    .landing {
+        height: calc(100vh - 100px);
+    }
+    .landing .container .left {
+        width: 100%;
+        text-align: center;
+    }
+    .landing .container .right {
+        width: 100%;
+    }
+    @keyframes up-and-down {
+
+        0%,
+        100% {
+            top: -10px;
+        }
+    
+        50% {
+            top: -50px;
+        }
+    }
+}
+
+/* iPads, Tablets ==============> 481px — 768px */
+@media all and (min-width:481px) and (max-width:768px) {
+    .container {
+        width: 90%;
+        margin-inline: auto;
+    }
+}
+
+/* Small screens, laptops ======> 769px — 1024px */
+@media all and (min-width:769px) and (max-width:1024px) {
+    .container {
+        width: 85%;
+        margin-inline: auto;
+    }
+}
+
+/* Desktops, large screens =====> 1025px — 1200px */
+@media all and (min-width:1025px) and (max-width:1200px) {
+    
+}
+
+/* Extra large screens, TV =====> 1201px and more */
+@media all and (min-width:1201px) {
+    
+}
